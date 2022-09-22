@@ -1,10 +1,10 @@
 from memory_profiler import profile
-from datetime import datetime
+import time
 
 
 @profile
 def my_func():
-    startTime = datetime.now()
+    startTime = time.time()
 
     number = 1
     print(number)
@@ -27,7 +27,7 @@ def my_func():
     number = number + 1
     print(number)
 
-    endTime = datetime.now()
+    endTime = time.time()
     print('Duration: {}'.format(endTime - startTime))
 
 
