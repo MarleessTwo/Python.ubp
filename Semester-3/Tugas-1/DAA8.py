@@ -7,7 +7,13 @@ import time
 def my_func():
     startTime = time.time()
 
-    # Code here
+    number = 1
+    while True:
+        if number <= 10:
+            print(number)
+            number += 1
+            continue
+        break
 
     endTime = time.time()
     print()

@@ -9,7 +9,10 @@ import time
 def my_func():
     startTime = time.time()
 
-    # Code here
+    # number = 1
+    while number <= 10:
+        print(number)
+        number += 1
 
     endTime = time.time()
     print()

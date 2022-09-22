@@ -7,11 +7,18 @@ import time
 def my_func():
     startTime = time.time()
 
-    # Code here
+    recursive(1)
 
     endTime = time.time()
     print()
     print("Duration : ", endTime - startTime)
+
+
+def recursive(number):
+    if number <= 10:
+        print(number)
+        number += 1
+        recursive(number)
 
 
 if __name__ == '__main__':

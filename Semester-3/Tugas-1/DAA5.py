@@ -7,8 +7,36 @@ import time
 def my_func():
     startTime = time.time()
 
-    # Code here
-    
+    number = 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
+        number += 1
+    if (number <= 10):
+        print(number)
 
     endTime = time.time()
     print()
