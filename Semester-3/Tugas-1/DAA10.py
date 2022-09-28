@@ -8,10 +8,10 @@ import time
 def my_func():
     startTime = time.time()
 
-    array = [10, 7, 9, 4, 5, 1, 3, 2, 6, 8]
+    array = [100, 71, 29, 14, 555, 11, 63, 12, 36, 89]
     size = len(array)
     sortSelection(array, size)
-    print(array)
+    print("Minimum", array[0], "Maximum", array[size-1])
 
     endTime = time.time()
     print()

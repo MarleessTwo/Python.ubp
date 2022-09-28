@@ -9,7 +9,7 @@ def my_func():
 
     number = 1
     while True:
-        if number <= 10:
+        if number <= 1000:
             print(number)
             number += 1
             continue

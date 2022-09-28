@@ -15,7 +15,7 @@ def my_func():
 
 
 def recursive(number):
-    if number <= 10:
+    if number <= 500:
         print(number)
         number += 1
         recursive(number)
