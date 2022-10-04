@@ -1,4 +1,3 @@
-from array import array
 from memory_profiler import profile
 import time
 #
