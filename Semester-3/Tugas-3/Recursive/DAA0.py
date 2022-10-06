@@ -1,8 +1,8 @@
 def recursive(number):
-    if number <= 500:
+    if number <= 10:
         print(number)
         number += 1
-        recursive(number)
+        return recursive(number)
 
 
 recursive(1)
